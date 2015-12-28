@@ -56,7 +56,7 @@ if (!empty($_POST)) {
     }
 } else {
 ?>
-		<h1>Login</h1> 
+		<h1>Friend List</h1> 
 		<form action="login.php" method="post"> 
 		    Username:<br /> 
 		    <input type="text" name="username" placeholder="Username" /> 
@@ -66,7 +66,7 @@ if (!empty($_POST)) {
 		    <br /><br /> 
 		    <input type="submit" value="Login" /> 
 		</form> 
-		<a href="register.php">Register</a>
+		
 	<?php
 	
 }
