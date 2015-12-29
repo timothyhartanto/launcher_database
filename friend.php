@@ -57,7 +57,7 @@ if (!empty($_POST)) {
 } else {
 ?>
 		<h1>Friend List</h1> 
-		<form action="login.php" method="post"> 
+		<form action="friend.php" method="get"> 
 		    Username:<br /> 
 		    <input type="text" name="username" placeholder="Username" /> 
 		    <br /><br /> 
