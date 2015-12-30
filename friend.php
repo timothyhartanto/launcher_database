@@ -56,16 +56,7 @@ if (!empty($_POST)) {
     }
 } else {
 ?>
-		<h1>Friend List</h1> 
-		<form action="friend.php" method="get"> 
-		    Username:<br /> 
-		    <input type="text" name="username" placeholder="Username" /> 
-		    <br /><br /> 
-		    Password:<br /> 
-		    <input type="password" name="password" placeholder="Password" /> 
-		    <br /><br /> 
-		    <input type="submit" value="Login" /> 
-		</form> 
+
 		
 	<?php
 	
