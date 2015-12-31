@@ -10,7 +10,7 @@ if (!empty($_POST)) {
                 id, 
                 username, 
                 password
-            FROM users 
+            FROM friends 
             WHERE 
                 username = :username 
         ";
