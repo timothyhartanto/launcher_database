@@ -7,9 +7,7 @@ if (!empty($_POST)) {
     //gets user's info based off of a username.
     $query = " 
             SELECT 
-                id, 
-                username, 
-                password
+                friendname
             FROM friends 
             WHERE 
                 username = :username 
