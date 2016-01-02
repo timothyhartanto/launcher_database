@@ -10,7 +10,7 @@ if (!empty($_POST)) {
                 friendname
             FROM friends 
             WHERE 
-                username = :username 
+                username = :username GROUP BY friendname
         ";
     
     $query_params = array(
