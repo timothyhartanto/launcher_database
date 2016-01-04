@@ -7,10 +7,10 @@ if (!empty($_POST)) {
     //gets user's info based off of a username.
     $query = " 
             SELECT 
-                friendname
+                username, friendname
             FROM friend
             WHERE 
-                username = :username GROUP BY friendname
+                username = :username GROUP BY username
         ";
     
     $query_params = array(
