@@ -8,7 +8,7 @@ if (!empty($_POST)) {
     $query = " 
             SELECT 
                 username, friendname
-            FROM friend
+            FROM friendlist
             WHERE 
                 username = :username GROUP BY username
         ";
