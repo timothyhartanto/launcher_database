@@ -8,7 +8,7 @@ if (!empty($_POST)) {
     $query = " 
             SELECT 
                 username, friendname
-            FROM friendlist
+            FROM friends
             WHERE 
                 username = :username GROUP BY username
         ";
@@ -52,12 +52,6 @@ if (!empty($_POST)) {
         $response["message"] = "Invalid Credentials!";
         die(json_encode($response));
     }
-} else {
-?>
-
-		
-	<?php
-	
-}
+} 
 
 ?> 
