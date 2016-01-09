@@ -38,7 +38,7 @@ if (!empty($_POST)) {
         if ($_POST['password'] === $row['password']) {
             $login_ok = true;
             //get the friend list and show them
-            
+            $row['friends'];
         }
     }
     
